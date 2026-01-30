@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    min-height: 100vh;
+}
+
+/* Login */
+.login-container {
+    background: white;
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-container input,
+.login-container button {
+    padding: 10px;
+}
+
+.login-container button {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background: #357abd;
+}
+
+/* Landing Page */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.kelas {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about {
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background: #4a90e2;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #357abd;
+    transform: scale(1.05);
+}
+
+.secondary {
+    background: #555;
+}
+
+.secondary:hover {
+    background: #333;
+}
+
+/* Dark Mode */
+.dark {
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .profile-img {
+        width: 120px;
+    }
+
+    .about {
+        font-size: 14px;
+    }
+}
+
